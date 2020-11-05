@@ -1,5 +1,5 @@
 from mautrix.types import RoomID, EventType, MessageType
-from maubot import Plugin, MessageEvent
+from maubot import Plugin, MessageEvent, StateEvent
 from maubot.handlers import event
 
 class WelcomeBot(Plugin):
